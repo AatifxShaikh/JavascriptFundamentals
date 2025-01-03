@@ -1,0 +1,11 @@
+javascript code runs in the execution context it consist of mainly two components:
+    1.Memory
+    2.code
+During the first phase the memory gets allocated for the entire code
+then the second phase is code execution phase.
+Whenever a function gets invocated a brand new execution context gets created for that function.    
+After the execution of the function is over the whole execution context of that function gets deleted.
+
+javascript has its own callStack
+callStack gets populated by global execution context
+
